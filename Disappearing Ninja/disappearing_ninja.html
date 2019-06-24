@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disappearing Ninja</title>
+
+    <style type="text/css">
+    img{
+       width: 24%;
+       display: inline-block;
+       /* position: fixed; */
+    }
+
+    button{
+        padding: 25px;
+        text-align: center;
+        display: block;
+        font-size: 13px;
+        color: white;
+        background-color: red;
+    }
+    
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+
+    $('.ninja-1').click(function() {
+        $(this).hide();
+    });
+    $('.ninja-2').click(function() {
+        $(this).hide();
+    });
+    $('.ninja-3').click(function() {
+        $(this).hide();
+    });
+    $('.ninja-4').click(function() {
+        $(this).hide();
+    }); 
+    $('.ninja-5').click(function() {
+        $(this).hide();
+    });
+    $('.ninja-6').click(function() {
+        $(this).hide();
+    });
+    $('.ninja-7').click(function() {
+        $(this).hide();
+    });
+    $('.ninja-8').click(function() {
+        $(this).hide();
+    });
+    $('button').click(function() {
+        $('img').show();
+    });
+})
+    
+    </script>
+</head>
+<body>
+
+    <img class="ninja-1" src="ninja.png" alt="Ninja Not Found">
+    <img class="ninja-2" src="ninja.png" alt="Ninja Not Found">
+    <img class="ninja-3" src="ninja.png" alt="Ninja Not Found">
+    <img class="ninja-4" src="ninja.png" alt="Ninja Not Found">
+    <img class="ninja-5" src="ninja.png" alt="Ninja Not Found">
+    <img class="ninja-6" src="ninja.png" alt="Ninja Not Found">
+    <img class="ninja-7" src="ninja.png" alt="Ninja Not Found">
+    <img class="ninja-8" src="ninja.png" alt="Ninja Not Found">
+    <button class="button">Restore</button>
+ 
+</body>
+</html>
