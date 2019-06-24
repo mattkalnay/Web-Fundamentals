@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja Cat</title>
+    <style type="text/css">
+        img{
+            display: block;
+            margin-bottom: 3px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+        
+            $('img').click(function() {
+                $(this).attr('temp', $(this).attr('src'));    
+                $(this).attr("src", $(this).attr("data-alt-src"));
+                $(this).attr("data-alt-src", $(this).attr("temp"));
+        });
+
+
+    })
+    </script>
+</head>
+<body>
+    <div class="puzzle">
+        <img src="ninja0.png" data-alt-src="cat0.png" temp="" alt="Image 0 Missing">
+        <img src="cat1.png" data-alt-src="ninja1.png" temp="" alt="Image 1 Missing">
+        <img src="ninja2.png" data-alt-src="cat2.png" temp="" alt="Image 2 Missing">
+        <img src="cat3.png" data-alt-src="ninja3.png" temp="" alt="Image 3 Missing">
+        <img src="ninja4.png" data-alt-src="cat4.png" temp="" alt="Image 4 Missing">
+    
+    </div>
+</body>
+</html>
