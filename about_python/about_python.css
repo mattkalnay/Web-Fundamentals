@@ -1,0 +1,181 @@
+div.container{
+    background-image: linear-gradient(#245076, #3274ac);
+    width: 970px;
+    padding-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+    div.container div.header{
+        min-height: 150px;
+        margin: 0px 0px;
+    }
+        div.container div.header p{
+            min-height: 20px;
+            color: white;
+            font-size: 15px;
+            text-align: right;
+            
+
+        }
+
+        div.container div.header a{
+            color: #d5b300;
+        }
+
+        div.container div.header img{
+            min-height: 100px;
+            width: 350px;
+            display: inline-block;
+            margin-right: 400px;
+            vertical-align: top;
+            
+        }
+
+            div.container div.header div.search{
+                width: 175px;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                padding: 15px;
+                background-color: #444444;
+                border-radius: 10%;
+                box-shadow: 5px 5px 5px black;
+            
+            }
+                div.container div.header div.search input{
+                    height: 25px;
+                    text-align: center;
+                    vertical-align: middle;
+                }
+
+                div.container div.header div.search button{
+                    height:25px;
+                    border: 1px solid silver;
+                    background-color: #245076;
+                    color: #ffffff;
+
+                }
+    div.container div.bar{
+        text-align: center;
+        margin: -15px 0px;
+
+       
+    }
+        div.container div.bar p{
+            width: 800px;
+            margin-left: 50px;
+            padding: 20px 25px;
+            background-color: #497fad;
+            border-radius: 5%;
+            box-shadow: 5px 5px 5px black;
+
+            
+        }
+            div.container div.bar a{
+                padding: 0px 20px;
+                color: white;
+                text-decoration: none;
+            }
+
+    div.container div.content{
+        /* min-height: 400px; */
+        display: inline-block;
+
+    }
+        div.container div.content ul{
+            min-height: 350px;
+            width: 300px;
+            display: inline-block;
+            list-style-position: inside;
+            text-align: center;
+  
+            
+        }
+            div.container div.content ul li{
+                margin: 20px;
+                color: #d5b300;
+
+            }
+
+            div.container div.content ul li a{
+                color: white;
+                
+            }
+
+            div.container div.content div.text{
+                width: 600px;
+                display: inline-block;
+                text-align: center;
+                vertical-align: top;
+
+            }
+
+        div.container div.content p{
+            font-size: 15px;
+        }
+
+        div.container div.content h4{
+            color: #d5b300;
+            font-style: italic;
+            font-weight: 500;            
+        }
+
+        div.container div.content h5{
+            font-weight: 500;
+        }
+
+    div.container div.info{
+        text-align: center;
+        color: black;
+        background-color: white;
+    }
+
+        div.container div.info div.box{
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            width: 45%;
+            border-top: 5px solid #73a7d5;
+            margin-top: 8px;
+        }
+            div.container div.info div.box h5{
+                font-size: 15px;
+                font-weight: 500;
+                margin-top: 0px;
+                margin-bottom: -1px;
+            }
+            div.container div.info div.box p{
+                font-size: 12px;
+            }
+            div.container div.info div.box span{
+                color: #8ab5dc;
+            }
+            div.container div.info div.box ul{
+                font-size: 12px;
+            }
+            div.container div.info div.box ul li{
+                color: black;
+            }
+            div.container div.info div.box ul li a{
+                text-decoration: none;
+                color: #8ab5dc;
+            }
+
+    div.container div.sub{
+        color:#73a7d5;
+        display: block;
+        text-align: center;
+        padding-top:20px;
+        padding-bottom: 2px;
+    }
+        div.container div.sub a{
+            text-decoration: none;
+            color: #73a7d5;
+            margin: 0px 20px;
+            font-size: 13px;
+            
+
+        }
+        div.container div.sub p{
+            font-size: 10px;
+        }
